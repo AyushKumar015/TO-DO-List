@@ -1,0 +1,90 @@
+body{
+    background-color: pink;
+}
+
+.box {
+    width: 30%;
+    height: 300px;
+    /* background-color: purple; */
+
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0px 0px 0px;
+}
+
+.header {
+    text-align: center;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box-1 input {
+    width: 360px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px 0px 0px 20px;
+}
+
+.box-2 input {
+    width: 360px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px 0px 0px 20px;
+}
+
+.box-4 {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px 0px 15px;
+}
+
+button {
+    width: 380px;
+    height: 43px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.box-1 i {
+    position: absolute;
+    padding: 14px 0px 0px 340px;
+}
+
+.box-2 i {
+    position: absolute;
+    padding: 14px 0px 0px 340px;
+}
+
+
+
+.anchor {
+    padding: 0px 0px 0px 130px;
+}
+
+.box-5 {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    font-family: cursive;
+}
+
+input{
+    font-size: 15px;
+}
