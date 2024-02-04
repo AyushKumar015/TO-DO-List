@@ -1,0 +1,182 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0px 0px 0px;
+}
+
+.container-2 {
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+
+input {
+    padding: 7px 7px;
+    border-radius: 4px;
+}
+
+.a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layer-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    font-size: 20px;
+}
+
+.b2 {
+    padding: 0px 15px 0px 0px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.li-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-1 i {
+    padding: 15px 20px 0px 0px;
+}
+
+#a11 {
+
+    /* border: 2px solid black; */
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.li-1 div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#a12 {
+
+    /* border: 2px solid black; */
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+
+}
+
+#a13 {
+
+    /* border: 2px solid black; */
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    
+
+}
+
+.layer-1 {
+    background-color: pink;
+
+}
+
+.container {
+    width: 35%;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 15px;
+    overflow: hidden;
+    /* padding: 10px 10px; */
+}
+
+.a1 {
+    padding: 0px 0px 0px 15px;
+}
+
+.a3 {
+    padding: 0px 0px 0px 22px;
+}
+
+.a2 {
+    padding: 30px 25px 0px 0px;
+}
+
+button {
+
+    background: transparent;
+    border-radius: 15px 15px;
+    width: 140%;
+    height: 30px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px 0px 120px;
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: left;
+    gap: 60px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.a2 {
+    padding: 10px 40px 1px 0px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+h2 {
+    font-family: cursive;
+}
+
+.home a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about a 
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.box-2{
+    position: absolute;
+    top: 120px;
+}
+
