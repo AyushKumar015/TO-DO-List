@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <title>Home-Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-1">
+                <div class="logo">
+                    <h2>TO-DO LIST</h2>
+                </div>
+                <div class="home"><a href="#">Home</a></div>
+                <div class="about"><a href="#">About</a></div>
+            </div>
+            <div class="a2">
+                <button>
+                    Logout
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="container">
+            <div class="layer-1">
+                <div class="a">
+                    <div class="a1">
+                        <h1>Hello Ayush</h1>
+                    </div>
+
+                </div>
+                <div class="a3">You have 1 incomplete task</div>
+                <br>
+            </div>
+            <br>
+
+            <div class="container-2">
+                <div class="layer-2">
+                    <div class="b1">
+                        <input type="search" placeholder="Search" id="search-bar" onkeyup="search()">
+                        <input type="button" value="Search">
+                    </div>
+                    <div class="b2">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="list">
+                    <ul>
+                        <li class="li-1">
+
+                            <div>
+                                <p><span id="a11" onclick="colour()"></span><span id="t1"> Java</span></p>
+
+                            </div>
+                            <div><i class="fa-solid fa-xmark"></i></div>
+                        </li>
+                        <li class="li-1">
+
+                            <div>
+                                <p><span id="a12" onclick="colour1()"></span><span id="t2">Programming</span></p>
+                            </div>
+                            <div><i class="fa-solid fa-xmark"></i></div>
+                        </li>
+                        <li class="li-1">
+
+                            <div>
+                                <p><span id="a13" onclick="colour2()"></span><span id="t3">Python</span></p>
+                            </div>
+                            <div><i class="fa-solid fa-xmark"></i></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    
+        <div class="box-2">
+            <i class="fa-regular fa-thumbs-up" id="aaa"></i>
+        
+
+            
+            <h2>Congratulations</h2>
+            <p id="para">You have completed the given task</p>
+            <button type="button">Ok</button>
+        </div>
+    
+    
+    
+    <script src="home.js"></script>
+</body>
+
+</html>
